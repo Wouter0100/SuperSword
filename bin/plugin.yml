@@ -1,0 +1,14 @@
+name: SuperSword
+main: me.Wouter0100.SuperSword.SuperSword
+version: 0.3.5
+description: 1 hit kill.
+commands:
+    supersword:
+        description: Get SuperSword.
+        usage: /supersword
+        aliases: [sw]
+        permission: supersword.use
+permissions:
+  supersword.use:
+    description: Permission to get Supersword.
+    default: true
